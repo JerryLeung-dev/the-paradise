@@ -1,0 +1,21 @@
+.font_caveat {
+    font-family: 'Caveat', cursive;
+}
+
+/* ______________HEADER____________ */
+header {
+    padding:10px 0px;
+    transition: all 300ms ease-in;
+}
+
+header .header_logo {
+    flex-grow: 1;
+}
+header .header_logo_paradise {
+    font-size: 45px;
+}
+
+header .header_logo_title {
+    text-transform: uppercase;
+    font-size: 14px;
+}
