@@ -1,0 +1,81 @@
+/* ======================== */
+/* ______EVENT MOMENTS_______ */
+/* ======================== */
+
+.event-moments{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    height: 220px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    border: 2px solid white;
+    
+}
+
+.event-moments__wrapper {
+    border: 2px solid white;
+    height: 208px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 20px 30px 20px 30px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+/* ======================== */
+/* ______CARROUSEL_______ */
+/* ======================== */
+
+.carrousel {
+    height:700px;
+    overflow: hidden;
+}
+
+.carrousel .carrousel__image {
+    background-size: cover !important;
+  
+}
+
+/* ======================== */
+/* ______COUNT DOWN_______ */
+/* ======================== */
+.countdown {
+    position:absolute;
+    bottom: 0px;
+    color:#ffffff;
+}
+
+.countdown .countdown__top {
+    background: #b4303b;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.countdown .countdown__bottom {
+    display: flex;
+    background: #da2c2cdc;
+    padding: 5px 10px;
+}
+
+.countdown .countdown__time {
+    font-size: 40px;
+    border-right: 1px solid #911212dc;
+    margin-right: 10px;
+    padding-right: 40px;
+}
+
+.countdown .countdown__tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+}
+
+.countdown .countdown__item:last-child .countdown__time{
+    border:none;
+    width:50px;
+}

@@ -1,0 +1,85 @@
+/* ===================== */
+/* ------DESCRIPTION---- */
+/* ===================== */
+.highlights {
+    /* text-align: center; */
+    background-color: rgba(247, 243, 243, 0.712);
+}
+
+.highlight-description {
+    width: 80%;
+    margin: auto;
+}
+
+
+.highlight-description .highlight-description__title, .highlight-description__para{
+    border-bottom: 1px solid rgb(110, 109, 109);
+    padding: 32px 0 32px 0;
+}
+
+.highlight-description .highlight-description__title {
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 5px;
+
+    color: var(--black);
+    
+}
+
+.highlight-description .highlight-description__para {
+    letter-spacing: 0.5px;
+}
+
+/* ===================== */
+/* ------DISCOUNT---- */
+/* ===================== */
+
+
+.highlight-discount {
+    display: flex;
+    padding: 70px 0px;
+
+    width:80%;
+    padding-top:32px;
+    margin:auto;
+
+}
+
+.highlight-discount__description {
+    text-align:left;
+}
+
+.highlight-discount__description ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.highlight-discount__description > ul > li{
+    margin-bottom:10px;
+}
+
+.highlight-discount__description > ul > li:last-child{
+    margin-bottom:30px;
+}
+
+.highlight-discount .highlight-discount__percentage {
+    padding-right: 100px;
+    padding-top: 10px;
+    width:50%;
+}
+
+.highlight-discount__percentage span:nth-child(1){
+    font-size: 120px;
+    line-height: 120px;
+    color: #f7095c ;
+
+    display: block;
+}
+
+.highlight-discount__percentage span:nth-last-child(1){
+    font-size: 50px;
+    display:block;
+
+}

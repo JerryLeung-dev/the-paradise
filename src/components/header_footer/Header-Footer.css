@@ -1,8 +1,9 @@
 .font_caveat {
     font-family: 'Caveat', cursive;
 }
-
+/* ================================= */
 /* ______________HEADER____________ */
+/* ================================ */
 header {
     padding:10px 0px;
     transition: all 300ms ease-in;
@@ -16,6 +17,31 @@ header .header_logo_paradise {
 }
 
 header .header_logo_title {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* ================================= */
+/* ______________FOOTER____________ */
+/* ================================ */
+
+footer {
+    text-align:center;
+
+    background-color: var(--yellow);
+    color: #fff;
+
+    padding: 10px 0;
+}
+
+.footer__logo {
+    padding:10px 0px;
+    transition: all 300ms ease-in;
+
+    font-size: 45px;
+}
+
+.footer__copyright {
     text-transform: uppercase;
     font-size: 14px;
 }

@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 
-class footer extends Component {
+import Fade from 'react-reveal/Fade';
+
+class Footer extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <footer>
+                <Fade delay={500}>
+                    <div className="font_caveat footer__logo">The Paradise</div>
+                    <div className="footer__copyright">&copy; The paradise. All rights reserved   </div>
+                </Fade>
+            </footer>
         );
     }
 }
 
-export default footer;
+export default Footer;

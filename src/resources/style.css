@@ -4,3 +4,7 @@ body {
     font-family:'Poppins', Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --black: #302f2f;
+    --yellow: #ffc107;
+}

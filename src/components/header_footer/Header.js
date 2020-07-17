@@ -38,12 +38,11 @@ class Header extends Component {
     }
 
     render() {
-        const { classes } = this.props;
         return (
             <AppBar
                 position="fixed"
                 style={{
-                    backgroundColor: this.state.headerShow ? '#e02769cf': 'transparent',
+                    backgroundColor: this.state.headerShow ? 'rgba(224, 39, 105)': 'transparent',
                     boxShadow: 'none',
                     padding: '10px',
                     transition: 'all 300ms ease-in'
